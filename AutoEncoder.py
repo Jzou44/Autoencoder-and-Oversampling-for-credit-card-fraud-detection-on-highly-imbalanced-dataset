@@ -45,3 +45,4 @@ class AutoEncoder(object):
     def save_weight(self):
         self.saver.save(self.sess, self.weight_path)
         print("weight saved.")
+

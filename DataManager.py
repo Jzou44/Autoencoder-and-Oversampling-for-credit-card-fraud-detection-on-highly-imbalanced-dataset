@@ -58,3 +58,4 @@ class DataManager:
         noise = np.random.normal(loc=0.0, scale=0.02, size=np.shape(nparray))
         nparray += noise
         return nparray
+
